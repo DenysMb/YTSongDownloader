@@ -1,0 +1,49 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00 \x00Y\x00T\x00S\x00o\x00n\x00g\x00D\x00o\x00w\x00n\x00l\x00o\x00a\x00d\x00e\x00r)
+
+[CMake]
+Build Directory Count=2
+Current Build Directory Index-Android=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/storage/Projects/Personal/ytsongdownloader/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr
+Runtime=Host System
+
+[CMake][CMake Build Directory 1]
+Build Directory Path=/storage/Projects/Personal/ytsongdownloader/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr
+Runtime=Android
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=ytsongdownloader
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x03\x00\x00\x00 \x00Y\x00T\x00S\x00o\x00n\x00g\x00D\x00o\x00w\x00n\x00l\x00o\x00a\x00d\x00e\x00r\x00\x00\x00\x06\x00s\x00r\x00c\x00\x00\x00 \x00y\x00t\x00s\x00o\x00n\x00g\x00d\x00o\x00w\x00n\x00l\x00o\x00a\x00d\x00e\x00r)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///storage/Projects/Personal/ytsongdownloader
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Kill Before Executing Again=4194304
+Project Target=YTSongDownloader,src,ytsongdownloader
+Use External Terminal=false
+Working Directory=
+isExecutable=false

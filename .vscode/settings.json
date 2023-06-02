@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "qobject": "cpp",
+        "*.tcc": "cpp",
+        "streambuf": "cpp"
+    }
+}
